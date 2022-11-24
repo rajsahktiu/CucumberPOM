@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="5.431121">
+    <testcase classname="CRM PRO Application Test" name="Validate CRM PRO Home Page Test" time="5.431121">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;com.qa.pages.LoginPage.validateloginPageTitle()&quot; because &quot;this.loginpage&quot; is null&#13;&#10;&#9;at com.qa.stepdefination.HomePageSteps.user_is_on_login_page(HomePageSteps.java:24)&#13;&#10;&#9;at ✽.Then user is on login page(C:/Selenium_WorkSpace/CucumberPOM/src/main/java/com/qa/features/CRMPro.feature:6)&#13;&#10;"><![CDATA[Given user opens browser....................................................passed
+Then user is on login page..................................................failed
+Then user enters username and password......................................skipped
+Then validate home page title...............................................skipped
+Then validate logged in username............................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "com.qa.pages.LoginPage.validateloginPageTitle()" because "this.loginpage" is null
+	at com.qa.stepdefination.HomePageSteps.user_is_on_login_page(HomePageSteps.java:24)
+	at ✽.Then user is on login page(C:/Selenium_WorkSpace/CucumberPOM/src/main/java/com/qa/features/CRMPro.feature:6)
+]]></failure>
+    </testcase>
+</testsuite>
